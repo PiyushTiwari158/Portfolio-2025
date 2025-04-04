@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body{
+    background-color: #0d1224;
+}
+.ant-menu-item-selected,
+.ant-menu-item-active,
+.ant-menu-item:hover {
+  background-color: transparent !important; /* Removes blue background */
+}
