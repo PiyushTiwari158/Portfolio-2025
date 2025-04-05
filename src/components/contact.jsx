@@ -10,6 +10,16 @@ import {
 const Contact = () => {
   return (
     <div id="contact" className="bg-[#0b0d1b] text-white py-12 px-6 md:px-16">
+      {/* Centered CONTACT label */}
+      <div className="text-center mb-10">
+        <h2
+          className="inline-block px-6 py-2 text-white text-xl font-semibold rounded-md"
+          style={{ backgroundColor: "#1a1443" }}
+        >
+          Contact
+        </h2>
+      </div>
+
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         {/* Contact Form */}
         <div className="bg-[#111427] p-6 rounded-lg border border-gray-700">
@@ -92,14 +102,6 @@ const Contact = () => {
               <FaLinkedin className="text-gray-400 text-2xl hover:text-white cursor-pointer" />
             </a>
           </div>
-        </div>
-      </div>
-      <div className="relative">
-        <div
-          className="absolute right-0 top-[25%] -translate-y-20/2 px-4 py-2 text-white text-sm font-semibold rotate-90"
-          style={{ backgroundColor: "#1a1443" }}
-        >
-          CONTACT
         </div>
       </div>
     </div>

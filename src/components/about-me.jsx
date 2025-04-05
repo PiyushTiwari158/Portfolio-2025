@@ -19,6 +19,7 @@ const AboutMe = () => {
             transform: "rotate(90deg)",
             padding: "8px 20px",
             fontSize: "1.25rem",
+            fontWeight: "600",
             borderRadius: "8px",
             display: "inline-block",
           }}

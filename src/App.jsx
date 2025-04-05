@@ -1,5 +1,6 @@
 import AboutMe from './components/about-me'
 import Contact from './components/contact'
+import Footer from './components/footer'
 import MyInfo from './components/hero'
 import WebMVideo from './components/media'
 import { Navbar } from './components/navbar'
@@ -17,7 +18,9 @@ function App() {
       <WebMVideo/>
       <SkillsSection/>
       <Contact/>
+      <Footer/>
       <ScrollToTop/>
+     
       </div>
     
     </>
